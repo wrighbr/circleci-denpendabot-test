@@ -1,11 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: circleci-denpendabot-test
-  description: testing backstage crawler
-  annotations: 
-    github.com/project-slug: wrighbr/circleci-denpendabot-test
+  name: dependabot-circleci
+  description: |
+    Fork of dependabot, also works with circleci orbs and images.
+  annotations:
+    github.com/project-slug:  wrighbr/dependabot-circleci
+
 spec:
   type: service
-  lifecycle: experimental
-  owner: Brett Wright
+  owner: engineering-services
+  lifecycle: production
