@@ -1,1 +1,8 @@
-dfjsiuhr
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: circleci-denpendabot-test
+  description: testing backstage crawler
+  annotations: 
+    github.com/project-slug: wrighbr/circleci-denpendabot-test
+
