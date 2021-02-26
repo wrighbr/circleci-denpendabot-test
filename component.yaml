@@ -4,7 +4,8 @@ metadata:
   name: dependabot-circleci-wrighbr
   description: Fork of dependabot, also works with circleci orbs and images.
   annotations:
-    github.com/project-slug:  wrighbr/dependabot-circleci
+    github.com/project-slug:  wrighbr/dependabot-circleci-test
+    datadog/dashboard-url: https://p.datadoghq.eu/sb/mai4fb5kffqzipm6-dac1d5186b8fc464e0efe8a01a0479e6
 spec:
   type: service
   owner: engineering-services
