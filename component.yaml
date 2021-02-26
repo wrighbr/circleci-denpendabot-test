@@ -5,3 +5,7 @@ metadata:
   description: Fork of dependabot, also works with circleci orbs and images.
   annotations:
     github.com/project-slug:  wrighbr/dependabot-circleci
+spec:
+  type: service
+  owner: engineering-services
+  lifecycle: production 
